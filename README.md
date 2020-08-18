@@ -1,4 +1,4 @@
-# patch-forensics
+# Patch Forensics
 [Project Page](TODO) |  [Paper](TODO) 
 
 What makes fake images detectable? Understanding properties that generalize  
