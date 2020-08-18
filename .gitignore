@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+dataset/
+checkpoints/
+results/
+runs/
+runs_finished/
+resources/*
+!resources/download_resources*
+utils/rf_cache/
+notebooks/plots/
+
+# extras/extra_resources/
+# extras/caricatures/
+# extras/finetune_G/
+# extras/for_figure*
+extras/
+
+*.mp4
+# dataset-temp/
+notes/
+website/

@@ -1,0 +1,32 @@
+name: patch-forensics-data
+channels:
+  - pytorch
+  - ostrokach-forge
+  - conda-forge
+dependencies:
+  - python=3.6
+  - cudatoolkit=10.1
+  - cudnn=7.6.0
+  - pytorch=1.4
+  - torchvision
+  - albumentations
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pandas
+  - seaborn
+  - jupyter
+  - oyaml
+  - opencv
+  - tqdm
+  - pip
+  - pillow
+  - tensorboard
+  - tensorboardX
+  - sk-video
+  - dlib
+  - pip:
+    - tensorflow-gpu==1.14.0
+    - dill
+    - gdown
