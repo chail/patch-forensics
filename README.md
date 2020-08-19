@@ -1,5 +1,5 @@
 # Patch Forensics
-[Project Page](TODO) |  [Paper](TODO) 
+[Project Page](https://chail.github.io/patch-forensics/) |  [Paper](TODO) 
 
 What makes fake images detectable? Understanding properties that generalize  
 [Lucy Chai](http://people.csail.mit.edu/lrchai/), [David Bau](https://people.csail.mit.edu/davidbau/home/), [Ser-Nam Lim](https://scholar.google.com/citations?user=HX0BfLYAAAAJ&hl=en), [Phillip Isola](http://web.mit.edu/phillipi/)  
