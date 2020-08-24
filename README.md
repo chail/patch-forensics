@@ -48,7 +48,7 @@ cd resources && bash download_resources_basic.sh
 
 We found that data preprocessing had a big impact on our results. Namely, the real datasets are saved in some fixed format, but the dataset that we create from generator samples can have whatever format we like. With this inconsistency, we found that we could get misleadingly high generalization across different datasets, when the models in fact were not learning the task at hand! Therefore, we preprocess the real datasets to make them as similar as possible to the generated samples by passing the real images through the generator's preprocessing pipeline before saving them; we extract [CelebA-HQ](https://github.com/tkarras/progressive_growing_of_gans) and [FFHQ](https://github.com/NVlabs/ffhq-dataset) datasets from the TFRecords used to train the generators, at the corresponding resolution of the generator (e.g. smaller resolution for smaller generators).  
 
-We provide a smaller version of the processed datasets (test set) [here](TODO). Once downloaded, unzip and place this in the `datasets/` directory. You should be able to use the pretrained models (see following) with this subset.
+We provide a smaller version of the processed datasets (test set) [here](https://drive.google.com/drive/folders/1_LekvsBFE2T9N3Wikkll3xjlogI-cSoH?usp=sharing). Once downloaded, unzip and place this in the `datasets/` directory. You should be able to use the pretrained models (see following) with this subset.
 
 To replicate the full dataset pipeline (e.g. for training) there are a few additional steps:
 
@@ -82,7 +82,7 @@ scripts/00_data_processing_faceforensics_aligned_frames.sh
 
 ## Evaluate and Visualize
 
-We provide a number of pretrained models [here](TODO). Once downloaded, unzip and place this in the `checkpoints/` directory. 
+We provide a number of pretrained models [here](https://drive.google.com/drive/folders/1_LekvsBFE2T9N3Wikkll3xjlogI-cSoH?usp=sharing). Once downloaded, unzip and place this in the `checkpoints/` directory. 
 
 ### Quickstart
 
